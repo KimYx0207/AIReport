@@ -28,4 +28,5 @@ AIReport是一款适用于chatgpt-on-wechat项目的新闻资讯类插件，调�
 
 ## 四. 使用样例
 ![AIReport_Example](https://github.com/user-attachments/assets/a391dc9b-c961-4657-9d68-82a8da62a167)
+
 PS:手动修改templates文件夹中news_template.html文件的第123行代码可自定义卡片下方的签名。
