@@ -1,0 +1,2 @@
+# AIReport
+该插件是原来的AIReport_pic图片版和AIReport_txt文字版AI日报插件的整合版本，安装此插件之前可将另外两个先行卸载。
