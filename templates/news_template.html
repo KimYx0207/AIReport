@@ -9,7 +9,7 @@
 body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #e5e5e5; }
 .card { 
     width: 600px;
-    height: 1380px;
+    height: 1335px;
     margin: 0 auto;
     background: linear-gradient(to bottom, #a0c4f3, #e0c6f2);
     position: relative;
@@ -18,20 +18,21 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: 
 }
 .mask {
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 10px;
     right: 10px;
-    bottom: 60px;
+    bottom: 50px;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 50px 50px 30px 30px;
+    border-radius: 60px 60px 30px 30px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
     z-index: 1;
 }
 .header {
     color: #003153;
     text-align: center;
-    padding: 35px 0;
+    padding: 20px 0;
     font-size: 40px;
-    height: 100px;
+    height: 80px;
     box-sizing: border-box;
     border-radius: 10px 10px 0 0;
     font-weight: 700;
@@ -40,8 +41,8 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .news-container {
-    padding: 10px 0;
-    height: calc(1380px - 160px);
+    padding: 5px 0;
+    height: calc(1335px - 135px);
     overflow-y: auto;
     position: relative;
     z-index: 2;
@@ -61,7 +62,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: 
     object-fit: cover;
 }
 .text-block {
-    padding: 20px 10px;
+    padding: 10px 8px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -69,12 +70,12 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: 
 }
 .title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     color: #333;
 }
 .description {
     font-family: 'KaiTi', 'SimKai';
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px 0;
     overflow: hidden;
 }
@@ -91,7 +92,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: 
     bottom: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -101,7 +102,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: 
 }
 .footer-bg {
     position: absolute;
-    bottom: 18px;
+    bottom: 13px;
     left: 50%;
     transform: translateX(-50%);
     width: 320px;
