@@ -172,7 +172,7 @@ class AIReport(Plugin):
         try:
             page = await self.browser.new_page()
             try:
-                await page.set_viewport_size({"width": 600, "height": 1380})
+                await page.set_viewport_size({"width": 600, "height": 1335})
                 await page.set_content(html_content, timeout=60000)
                 screenshot_bytes = await page.screenshot(
                     full_page=True,
