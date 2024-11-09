@@ -7,6 +7,7 @@ AIReport是一款适用于chatgpt-on-wechat项目的新闻资讯类插件，调�
 ## 一. 安装Html渲染所必需的环境
 1. 安装playwright：在服务器终端执行以下命令 ：pip install playwright
 2. 安装chromium：在服务器终端执行以下命令 ：playwright install chromium
+3. 安装字体：在服务器终端执行以下命令 ：yum groupinstall "fonts"
 
 ## 二. 获取TIAN_API_KEY并申请接口
 1.在天聚数行API接口网站注册账号并登录，官网链接：https://www.tianapi.com
