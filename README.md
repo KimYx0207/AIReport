@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/c873c4e2-443c-4df5-a7a1-bb61831ae67d)
+
+
+
 # AIReport
 AIReport是一款适用于XXXBOT框架的新闻资讯类插件，调用天聚数行的API接口，通过代码加工后生成文字版和图片版的AI日报。
 该插件是原来的AIReport_pic图片版和AIReport_txt文字版AI日报插件的整合版本，已适配XXXBOT框架。
