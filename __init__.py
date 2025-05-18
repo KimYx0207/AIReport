@@ -1,1 +1,1 @@
-from .AIReport import *
+# This file makes the AIReport plugin a package. 

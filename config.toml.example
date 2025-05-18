@@ -1,0 +1,29 @@
+20[basic]
+# 是否启用AIReport插件
+enable = true
+# 天行API的KEY，请替换为你自己的KEY
+TIAN_API_KEY = ""
+# 插件处理优先级 (越高越优先处理消息)
+HANDLER_PRIORITY = 20
+# API端点URL
+API_ENDPOINT = "https://apis.tianapi.com/ai/index"
+
+[settings]
+# 文本版新闻条数
+text_news_count = 10
+# 图片版新闻条数
+image_news_count = 6
+# 命令前缀词列表 (如果消息以这些词开头，会被移除后再匹配命令)
+prefixes = ["老金", "老金，", "老金,", "小金", "小金，", "小金,"]
+# 简讯命令关键词
+text_commands = ["AI简讯", "ai简讯"]
+# 快讯命令关键词
+image_commands = ["AI快讯", "ai快讯", "AI资讯", "ai资讯"]
+
+[browser]
+# 浏览器启动参数
+browser_args = ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--single-process"]
+# 视口宽度
+viewport_width = 700
+# 视口高度
+viewport_height = 1380 

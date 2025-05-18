@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日AI快讯</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        padding: 40px;
+        font-family: 'Open Sans', sans-serif;
+        background: linear-gradient(to bottom, #d6cec2, #e6ded5); /* 从上到下的莫兰迪渐变色 */
+        color: #333333;
+    }
+
+    .card {
+        max-width: 800px;
+        margin: 0 auto;
+        background: linear-gradient(to bottom, #f0ece6, #e8e4db); /* 卡片背景渐变色，从上到下 */
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+        color: #6d6875;
+        text-align: center;
+        padding: 60px 0 40px 0;
+        font-size: 5em;
+        font-family: 'Cinzel Decorative', serif;
+        font-weight: 700;
+        letter-spacing: 5px;
+        text-shadow:
+            0 0 3px rgba(255, 255, 255, 0.7),
+            0 0 6px rgba(255, 255, 255, 0.5),
+            0 0 9px rgba(255, 255, 255, 0.3),
+            0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .header::after {
+        content: '';
+        width: 200px;
+        height: 4px;
+        background: #6d6875;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .news-container {
+        padding: 20px 0;
+    }
+
+    .news-unit {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .news-unit img {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        object-fit: cover;
+        border-bottom: 2px solid #eae7dc;
+    }
+
+    .text-block {
+        padding: 20px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #6d6875;
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-size: 1em;
+        color: #8e8d8a;
+        margin-bottom: 15px;
+        line-height: 1.6;
+    }
+
+    .ctime {
+        font-size: 0.9em;
+        color: #999999;
+        text-align: right;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: #6d6875;
+        font-size: 1em;
+        flex-direction: column;
+    }
+
+    .info {
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+    .qr-code {
+        width: 100px;
+        height: 100px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .text-block {
+            padding: 15px;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="card">
+    <div class="header">今日AI快讯</div>
+    <div class="news-container">
+        <!-- NEWS_CONTENT -->
+    </div>
+    <div class="footer">
+        <div class="info">
+            备注"AI"加入AI交流群
+        </div>
+        <img src="QRcode.png" alt="QR Code" class="qr-code">
+    </div>
+</div>
+</body>
+</html>
