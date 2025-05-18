@@ -18,16 +18,10 @@ AIReport是一款适用于XXXBOT框架的新闻资讯类插件，调用天聚数
 ## 一. 安装Html渲染所必需的环境
 
 安装playwright：在服务器终端执行以下命令 ：pip install playwright
+
 安装chromium：在服务器终端执行以下命令 ：playwright install chromium
+
 安装字体：在服务器终端执行以下命令 ：yum groupinstall "fonts"
-
-
-### 手动安装
-如果自动安装脚本不工作，可以按照以下步骤手动安装：
-
-1. 安装playwright：在服务器终端执行以下命令：`pip install playwright>=1.42.0`
-2. 安装chromium：在服务器终端执行以下命令：`playwright install chromium`
-3. 安装系统依赖(必须, Linux系统)：`playwright install-deps chromium`
 
 
 ## 二. 获取TIAN_API_KEY并申请接口
