@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/c873c4e2-443c-4df5-a7a1-bb61831ae67d)
-
+![二维码带角标](https://github.com/user-attachments/assets/f6a10787-bc14-4c86-aadb-21ce00714a11)
 
 
 # AIReport
